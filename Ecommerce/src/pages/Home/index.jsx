@@ -1,11 +1,15 @@
 import './Home.css'
 
+import { Layout } from '../../components/Layout'
+import { Card } from '../../components/Card'
+
 function Home() {
     return (
-    <>
-        <div className='bg-red-400'>
+        <>
+        <Layout >
             Home
-        </div>
+            <Card />
+        </Layout>
         </>
     )
 }
